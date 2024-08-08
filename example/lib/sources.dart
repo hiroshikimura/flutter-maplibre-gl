@@ -263,7 +263,7 @@ class FullMapState extends State<FullMap> {
       // specify a different baseStyle for consecutive elements in this list,
       // otherwise the map will not update
       baseStyle:
-          "https://raw.githubusercontent.com/maplibre/demotiles/gh-pages/style.json",
+          "https://map.dekaihiroshi.net/styles/osm-liberty/style.json",
       addDetails: addDem,
       position: CameraPosition(target: LatLng(33.5, -118.1), zoom: 8),
     ),
@@ -276,21 +276,21 @@ class FullMapState extends State<FullMap> {
     const StyleInfo(
       name: "Raster",
       baseStyle:
-          "https://raw.githubusercontent.com/maplibre/demotiles/gh-pages/style.json",
+          "https://map.dekaihiroshi.net/styles/osm-liberty/style.json",
       addDetails: addRaster,
       position: CameraPosition(target: LatLng(40, -100), zoom: 3),
     ),
     const StyleInfo(
       name: "Image",
       baseStyle:
-          "https://raw.githubusercontent.com/maplibre/demotiles/gh-pages/style.json?",
+          "https://map.dekaihiroshi.net/styles/osm-liberty/style.json",
       addDetails: addImage,
       position: CameraPosition(target: LatLng(43, -75), zoom: 6),
     ),
     const StyleInfo(
       name: "Heatmap",
       baseStyle:
-          "https://raw.githubusercontent.com/maplibre/demotiles/gh-pages/style.json",
+          "https://map.dekaihiroshi.net/styles/osm-liberty/style.json",
       addDetails: addHeatMap,
       position: CameraPosition(target: LatLng(33.5, -118.1), zoom: 2),
     ),
@@ -299,7 +299,7 @@ class FullMapState extends State<FullMap> {
       const StyleInfo(
         name: "Video",
         baseStyle:
-            "https://raw.githubusercontent.com/maplibre/demotiles/gh-pages/style.json",
+          "https://map.dekaihiroshi.net/styles/osm-liberty/style.json",
         addDetails: addVideo,
         position: CameraPosition(
             target: LatLng(37.562984, -122.514426), zoom: 17, bearing: -96),

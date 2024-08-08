@@ -10,6 +10,12 @@
 		"demotiles": {
 			"type": "vector",
 			"url": "https://demotiles.maplibre.org/tiles/tiles.json"
+		},
+		"mytiles": {
+			"type": "vector",
+			"tiles": [
+				"https://map.dekaihiroshi.net/styles/osm-bright/{z}/{x}/{y}.png"
+			]
 		}
 	},
 	"sprite": "",
@@ -25,7 +31,7 @@
 		{
 			"id": "countries",
 			"type": "line",
-			"source": "demotiles",
+			"source": "mytiles",
 			"source-layer": "countries",
 			"paint": {
 				"line-color": "rgba(0, 0, 0, 1)",

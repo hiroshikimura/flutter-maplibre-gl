@@ -75,9 +75,7 @@ class _GetMapInfoBodyState extends State<GetMapInfoBody> {
                   "OSM": {
                     "type": "raster",
                     "tiles": [
-                      "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                      "https://b.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                      "https://c.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                      "https://map.dekaihiroshi.net/styles/osm-bright/{z}/{x}/{y}.png"
                     ],
                     "tileSize": 256,
                     "attribution": "© OpenStreetMap contributors",

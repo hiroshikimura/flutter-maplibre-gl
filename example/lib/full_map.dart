@@ -56,6 +56,7 @@ class FullMapState extends State<FullMap> {
       onMapCreated: _onMapCreated,
       initialCameraPosition: const CameraPosition(target: LatLng(0.0, 0.0)),
       onStyleLoadedCallback: _onStyleLoadedCallback,
+      styleString: "https://map.dekaihiroshi.net/styles/osm-liberty/style.json"
     ));
   }
 }
